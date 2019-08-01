@@ -29,7 +29,7 @@ from mistune import Renderer
 from mistune import Markdown
 
 
-regex_email = re.compile(ur'^<([\w]+\.*[\w]*)+@(([\w]+\.[\w]*)+)>$')
+regex_email = re.compile(r'^<([\w]+\.*[\w]*)+@(([\w]+\.[\w]*)+)>$')
 
 
 class TendrilMistuneRenderer(Renderer):

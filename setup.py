@@ -23,7 +23,7 @@ test_requirements = [
 
 setup(
     name='tendril-utils-markdown',
-    version='0.1.1',
+    version='0.1.2',
     description="Markdown utilities for Tendril",
     long_description=readme,
     author="Chintalagiri Shashank",
